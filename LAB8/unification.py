@@ -102,3 +102,4 @@ def main():
     substitutions = unify(e1, e2)
     print("The substitutions are:")
     print([' / '.join(substitution) for substitution in substitutions])
+main()                        
